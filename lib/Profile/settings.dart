@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proyek_uas/Profile/profile.dart';
+import 'package:proyek_uas/navigasi.dart';
 
 import '../Sign/sign_in.dart';
 import 'about.dart';
@@ -29,7 +30,7 @@ class _SettingsState extends State<Settings> {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return Profile();
+                        return Navigasi();
                       },
                     ),
                   );

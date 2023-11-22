@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proyek_uas/Profile/settings.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class Profile extends StatefulWidget {
   const Profile({super.key});

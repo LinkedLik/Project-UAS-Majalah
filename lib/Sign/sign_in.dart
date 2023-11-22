@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:proyek_uas/Read/tampilan_home.dart';
 import 'package:proyek_uas/Sign/sign_up.dart';
 import 'package:proyek_uas/Sign/socialmedia.dart';
+import 'package:proyek_uas/navigasi.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../Read/home.dart';
 
@@ -88,11 +91,17 @@ class _SignInState extends State<SignIn> {
               child: Column(
                 children: <Widget>[
                   TextButton(
-                      onPressed: () {},
-                      child: Text(
-                        "Login",
-                        style: TextStyle(color: Colors.green),
-                      )),
+                    onPressed: () {
+                      Navigator.pushReplacement(context,
+                          MaterialPageRoute(builder: (context) {
+                        return Navigasi();
+                      }));
+                    },
+                    child: Text(
+                      "Login",
+                      style: TextStyle(color: Colors.green),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -110,7 +119,16 @@ class _SignInState extends State<SignIn> {
             Container(
               child: Column(
                 children: <Widget>[
-                  TextButton(onPressed: () {}, child: Text("Sign up"))
+                  TextButton(
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return SignUp();
+                          }),
+                        );
+                      },
+                      child: Text("Sign up"))
                 ],
               ),
             ),
