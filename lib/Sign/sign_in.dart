@@ -135,7 +135,21 @@ class _SignInState extends State<SignIn> {
                                 MaterialPageRoute(
                                     builder: (context) => Navigasi()));
                           } else {
-                            print("Antara Email atau Password Salah");
+                            Widget okButton = TextButton(
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                },
+                                child: Text("OK"));
+                            AlertDialog alert = AlertDialog(
+                              title: Text("Error"),
+                              content: Text("Username atau Password Salah"),
+                              actions: [okButton],
+                            );
+                            showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return alert;
+                                });
                           }
                         }
                       },
