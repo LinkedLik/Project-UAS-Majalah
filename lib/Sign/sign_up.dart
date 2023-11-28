@@ -45,14 +45,14 @@ class _SignUpState extends State<SignUp> {
               Container(
                 margin: EdgeInsets.only(top: 80),
                 child: Text(
-                  "Medium",
+                  "Macarium",
                   style: TextStyle(color: Colors.white, fontSize: 40),
                 ),
               ),
               Container(
                 margin: EdgeInsets.only(top: 30),
                 child: Text(
-                  "Join Medium",
+                  "Join Macarium",
                   style: TextStyle(color: Colors.white, fontSize: 28),
                 ),
               ),

@@ -41,7 +41,7 @@ class _SignInState extends State<SignIn> {
               Container(
                 margin: EdgeInsets.only(top: 80),
                 child: Text(
-                  "Medium",
+                  "Macarium",
                   style: TextStyle(color: Colors.white, fontSize: 40),
                 ),
               ),
