@@ -55,7 +55,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                           ),
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text("For You"),
+                            child: Text("AI News"),
                           ),
                         ),
                         Container(
@@ -65,7 +65,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                           ),
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text("For You"),
+                            child: Text("IT News"),
                           ),
                         ),
                         Container(
@@ -75,7 +75,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                           ),
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text("For You"),
+                            child: Text("IT Trend"),
                           ),
                         ),
                         Container(
@@ -85,7 +85,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                           ),
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text("For You"),
+                            child: Text("Computer"),
                           ),
                         ),
                         Container(
@@ -95,7 +95,7 @@ class _TampilanHomeState extends State<TampilanHome> {
                           ),
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text("For You"),
+                            child: Text("E - Sport"),
                           ),
                         ),
                       ],
